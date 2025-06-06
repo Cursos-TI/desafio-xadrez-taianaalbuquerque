@@ -5,7 +5,7 @@
 
 int main() {
 
-    int b = 0, r = 1;
+    int t, b = 0, r = 1;
 
     //Boas-vindas ao jogo
     printf("### Bem-vindo ao Jogo de Xadrez do Desafio Novato! ###\n");
@@ -13,7 +13,7 @@ int main() {
     // Início com movimentação da Torre utilizando o loop for
     printf("\nVamos iniciar o jogo com a movimentação da peça Torre com 5 casas para a direita:\n");
 
-    for (int t = 1; t <= 5; t++){
+    for (t = 1; t <= 5; t++){
         printf("Direita\n");
     }
     //Finalização da movimentação da Torre
